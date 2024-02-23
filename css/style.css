@@ -57,7 +57,6 @@ p {
 }
 
 .section {
-  /* width: 1440px; */
   padding: 120px 0;
 }
 
@@ -214,7 +213,7 @@ p {
 }
 
 .person-description {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .person {
@@ -243,7 +242,7 @@ p {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .category {
