@@ -2,7 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
-  width: 1440px;
 }
 
 img {
@@ -25,7 +24,6 @@ ul {
 
 p {
   margin: 0;
-  display: block;
 }
 
 .header {
@@ -35,7 +33,6 @@ p {
 .header-wrap {
   display: flex;
   align-items: center;
-  /* padding: 24px 0; */
 }
 
 .container {
@@ -47,13 +44,13 @@ p {
 .display-header {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .menu {
   display: flex;
   gap: 40px;
   padding: 24px 0;
-  margin-right: 332px;
 }
 
 .section {
@@ -128,7 +125,7 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   max-width: 496px;
 }
 
@@ -248,10 +245,14 @@ p {
 .category {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
-.aaa {
+
+.portfolio-heading {
   margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .footer {
@@ -266,6 +267,9 @@ p {
 
 .footer .text {
   width: 264px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 .footer .logo {
